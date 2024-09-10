@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.nobutton{
+  display: none;
+}
+.nextbutton{
+  font-size: 25px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border:none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  animation: fadein 2s ease;
+}
+
+@keyframes fadein {
+  from {
+    right: 100vw;
+    opacity: 0;
+  }
+  to {
+    right: 50px;
+    opacity: 1;
+  }
+  
+}
